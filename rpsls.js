@@ -13,7 +13,7 @@ const rps = () => {
     let cpuchoice;
     let choice = prompt("rock, paper, scissors, lizard, spock: ").toLowerCase();
     if (choice !== "rock" && choice !== "paper" && choice !== "scissors" && choice !== "lizard" && choice !== "spock"){
-        console.log("Please choose either rock, paper or scissors");
+        console.log("Please choose either rock, paper, scissors, lizard or spock");
         return rps();
     }
     results.games++;
