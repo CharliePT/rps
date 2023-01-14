@@ -1,18 +1,11 @@
-# Programming fundamentals
+# rps
+Rock, paper, scissors
 
-This repository contains instructions and (where applicable) start code for exercises in the **Programming fundamentals** module.
+rps - rock, paper, scissors game
 
-## Set-up
+rpsls - rock, paper, scissors, lizard, spock game
 
-Begin by **forking** this repository and **cloning** it onto your machine.
+in order to run each you will need to install chalk
 
-## Exercises
-
-To begin an exercise, switch to the relevant branch and read [`exercise.md`](./exercise.md) for instructions.
-
-| Exercise | Branch |
-| --- | --- |
-| Pseudocode | `pseudocode` |
-| Scripts & libraries | `scripts-and-libraries` |
-| Passing tests | `passing-tests` |
-| Making a game | `making-a-game` |
+run:
+npm install chalk@4.1.2
